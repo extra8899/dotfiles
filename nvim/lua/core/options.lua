@@ -1,0 +1,21 @@
+vim.wo.number = true -- Make line numbers default (default: false)
+vim.o.relativenumber = true -- Set relative number lines (default: false)
+vim.o.clipboard = 'unnamedplus' -- Sync clipboard between OS and Neovim
+vim.o.wrap = true
+vim.o.linebreak = true
+vim.o.mouse = 'a'
+vim.o.autoindent = true
+vim.o.ignorecase = true
+vim.o.smartcase = true
+vim.o.shiftwidth = 2
+vim.o.tabstop = 2
+vim.o.softtabstop = 2
+vim.o.expandtab = true
+vim.o.cursorline = false -- highlight the current line
+vim.o.showtabline = 2 -- always show tabs
+vim.o.numberwidth = 4 -- set number column width to 2 {default 4}
+vim.o.backup = false -- creates a backup file
+vim.o.writebackup = false -- if a file is being edited by another program (or was written to file while editing with another program), it is not allowed to be edited
+vim.o.completeopt = 'menuone,noselect' -- Set completeopt to have a better completion experience
+vim.opt.termguicolors = true -- set termguicolors to enable highlight groups
+
